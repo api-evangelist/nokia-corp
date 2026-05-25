@@ -1,0 +1,277 @@
+aid: nokia-corp
+name: Nokia
+description: >-
+  Nokia (Nokia Oyj) is a Finnish multinational telecommunications, information
+  technology, and consumer electronics corporation headquartered in Espoo,
+  Finland. Nokia is a leading vendor of carrier-grade network equipment for
+  communication service providers (CSPs), webscalers, and enterprises across
+  mobile (5G/6G RAN, Core), fixed (broadband, fiber), IP (Service Router OS /
+  SR Linux), optical (WaveSuite, 1830 PSS/PSI), submarine cable, and cloud and
+  network services. Nokia's developer surface spans (1) the Network Services
+  Platform (NSP) automation suite, (2) the SR OS / SR Linux network operating
+  systems with the pySROS SDK and YANG models for the 7x50 platform, (3)
+  WaveSuite optical management REST APIs with Swagger documentation, (4) the
+  CAMARA-compliant Network as Code platform exposing 16+ standardized network
+  APIs (Quality on Demand, Device Location, SIM Swap, Number Verification, KYC,
+  Geofencing, Slicing) for B2B and B2C developer consumption, and (5) the
+  Network Exposure Platform that enables operators to expose their own network
+  capabilities to developers. Nokia also operates Nokia Technologies (licensing),
+  the Bell Labs research division, and a broad open-source presence (600+ GitHub
+  repos) including TTCN-3 tooling (ntt), Corteca CLI, Moler test framework, and
+  YANG models.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Telecommunications
+  - Telecom
+  - 5G
+  - 6G
+  - Mobile Networks
+  - Network Infrastructure
+  - IP Networks
+  - Optical Networks
+  - Fixed Networks
+  - Broadband
+  - Service Router
+  - SR OS
+  - SR Linux
+  - WaveSuite
+  - NSP
+  - Network Services Platform
+  - Network as Code
+  - CAMARA
+  - Network Exposure
+  - Open Gateway
+  - YANG
+  - Network Automation
+  - CSP
+  - Bell Labs
+  - Submarine Cable
+  - Fiber
+  - 7x50
+url: https://raw.githubusercontent.com/api-evangelist/nokia-corp/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis:
+  - aid: nokia-corp:network-as-code
+    name: Nokia Network as Code Platform
+    description: >-
+      CAMARA-compliant, production-ready Network APIs exposing 5G core and RAN
+      functions through standardized northbound interfaces. Includes Quality on
+      Demand, Device Location (Verification, Retrieval), Geofencing,
+      Specialized Networks (Slicing), Device Status (Roaming, Reachability),
+      Congestion Insights, SIM Swap, Number Verification, Call Forwarding
+      Signal, Device Swap, and KYC (Match, Age Verification, Tenure, Fill-in).
+      Aligned to CAMARA, TM Forum, and GSMA Open Gateway. Available on Google
+      Cloud Marketplace.
+    tags:
+      - Network as Code
+      - CAMARA
+      - Quality on Demand
+      - Device Location
+      - SIM Swap
+      - KYC
+      - 5G
+      - Open Gateway
+    humanURL: https://networkascode.nokia.io/
+    properties:
+      - url: https://networkascode.nokia.io/
+        type: Portal
+      - url: https://networkascode.nokia.io/docs/api-reference
+        type: Documentation
+      - url: https://www.nokia.com/programmable-networks/network-as-code/
+        type: Documentation
+  - aid: nokia-corp:network-services-platform
+    name: Nokia Network Services Platform (NSP) API
+    description: >-
+      REST-based automation and assurance API for Nokia's multilayer (IP +
+      optical) Network Services Platform. Provides programmable model-driven
+      service orchestration, inventory, fault, performance, and intent-based
+      automation across multivendor networks. Includes API Reference and
+      Artifact Development tooling on the Nokia Network Developer Portal.
+    tags:
+      - NSP
+      - Network Automation
+      - Service Orchestration
+      - Multilayer
+      - IP
+      - Optical
+    humanURL: https://network.developer.nokia.com/
+    properties:
+      - url: https://network.developer.nokia.com/
+        type: Portal
+      - url: https://network.developer.nokia.com/
+        type: Documentation
+  - aid: nokia-corp:sr-os-pysros
+    name: Nokia SR OS pySROS SDK and YANG Models
+    description: >-
+      pySROS is the official Python SDK for model-driven configuration,
+      operational data retrieval, and automation against Nokia SR OS devices
+      (7x50 SR/IXR/XRS/MG and family). Backed by the public 7x50_YangModels
+      repository providing canonical YANG data models for NETCONF / RESTCONF /
+      gNMI consumption.
+    tags:
+      - SR OS
+      - 7x50
+      - YANG
+      - Python
+      - SDK
+      - NETCONF
+      - gNMI
+      - Network Automation
+    humanURL: https://github.com/nokia/pysros
+    properties:
+      - url: https://github.com/nokia/pysros
+        type: GitHubRepository
+      - url: https://github.com/nokia/7x50_YangModels
+        type: GitHubRepository
+      - url: https://network.developer.nokia.com/
+        type: Documentation
+  - aid: nokia-corp:sr-linux
+    name: Nokia SR Linux
+    description: >-
+      Modern, Linux-based, fully model-driven network operating system for
+      data-center and service-provider routing. SR Linux exposes a gNMI / gNOI
+      management surface, a NETCONF interface, and an extensible application
+      framework, with YANG as the canonical configuration and state contract.
+    tags:
+      - SR Linux
+      - NOS
+      - Data Center
+      - gNMI
+      - gNOI
+      - NETCONF
+      - YANG
+      - Network Automation
+    humanURL: https://www.nokia.com/ip-networks/service-router-linux-NOS/
+    properties:
+      - url: https://www.nokia.com/ip-networks/service-router-linux-NOS/
+        type: Portal
+      - url: https://learn.srlinux.dev/
+        type: Documentation
+  - aid: nokia-corp:wavesuite
+    name: Nokia WaveSuite Optical REST APIs
+    description: >-
+      Optical networking REST APIs (Swagger-documented) across the WaveSuite
+      portfolio — WaveSuite-NOC, WaveSuite Resource Control, WaveSuite
+      Optimizer, Planner, Service Enablement, and Health & Analytics — plus
+      the NE Management Interface for the 1830 optical platforms.
+    tags:
+      - Optical
+      - WaveSuite
+      - 1830
+      - Service Enablement
+      - Network Operations
+    humanURL: https://network.developer.nokia.com/
+    properties:
+      - url: https://network.developer.nokia.com/
+        type: Portal
+      - url: https://network.developer.nokia.com/
+        type: Documentation
+  - aid: nokia-corp:network-exposure-platform
+    name: Nokia Network Exposure Platform
+    description: >-
+      Operator-facing platform that enables CSPs to expose their own network
+      capabilities as standardized CAMARA / GSMA Open Gateway APIs to
+      developers and aggregators. Sits beneath Network as Code and provides
+      API lifecycle, monetization, and consent management for service provider
+      API programs.
+    tags:
+      - Network Exposure
+      - CAMARA
+      - GSMA Open Gateway
+      - API Management
+      - Monetization
+      - CSP
+    humanURL: https://www.nokia.com/about-us/news/releases/
+    properties:
+      - url: https://www.nokia.com/programmable-networks/network-as-code/
+        type: Documentation
+common:
+  - type: Website
+    url: https://www.nokia.com
+  - type: Portal
+    url: https://www.nokia.com
+  - type: Portal
+    url: https://network.developer.nokia.com/
+  - type: Portal
+    url: https://networkascode.nokia.io/
+  - type: Documentation
+    url: https://network.developer.nokia.com/
+  - type: Documentation
+    url: https://networkascode.nokia.io/docs/api-reference
+  - type: GettingStarted
+    url: https://networkascode.nokia.io/docs/getting-started
+  - type: SignUp
+    url: https://networkascode.nokia.io/
+  - type: Product
+    url: https://www.nokia.com/networks/mobile-networks/
+  - type: Product
+    url: https://www.nokia.com/ip-networks/
+  - type: Product
+    url: https://www.nokia.com/networks/optical-networks/
+  - type: Product
+    url: https://www.nokia.com/networks/fixed-networks/
+  - type: Product
+    url: https://www.nokia.com/networks/network-cognitive-services/
+  - type: Product
+    url: https://www.nokia.com/networks/cloud-and-network-services/
+  - type: Product
+    url: https://www.nokia.com/networks/submarine-networks/
+  - type: Product
+    url: https://www.nokia.com/programmable-networks/network-as-code/
+  - type: SDK
+    url: https://github.com/nokia/pysros
+    name: pySROS - Python SDK for SR OS
+  - type: Tool
+    url: https://github.com/nokia/corteca-cli
+    name: Corteca CLI
+  - type: Tool
+    url: https://github.com/nokia/ntt
+    name: ntt - Modern TTCN-3 tooling
+  - type: Tool
+    url: https://github.com/nokia/moler
+    name: Moler - Test automation library
+  - type: Tool
+    url: https://github.com/nokia/RED
+    name: RED - Robot Editor
+  - type: Tool
+    url: https://github.com/nokia/vscode-ttcn3
+    name: TTCN-3 VS Code extension
+  - type: GitHubOrganization
+    url: https://github.com/nokia
+  - type: GitHubOrganization
+    url: https://github.com/nokia-developer
+  - type: Research
+    url: https://www.bell-labs.com/
+    name: Nokia Bell Labs
+  - type: Investors
+    url: https://www.nokia.com/about-us/investors/
+  - type: Company
+    url: https://www.nokia.com/about-us/
+  - type: Careers
+    url: https://www.nokia.com/about-us/careers/
+  - type: Newsroom
+    url: https://www.nokia.com/about-us/news/
+  - type: Blog
+    url: https://www.nokia.com/blog/
+  - type: PrivacyPolicy
+    url: https://www.nokia.com/privacy/privacy-policy/
+  - type: TermsOfService
+    url: https://www.nokia.com/terms-of-use/
+  - type: ContactSales
+    url: https://www.nokia.com/networks/contact-us/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/nokia
+  - type: Twitter
+    url: https://twitter.com/nokia
+  - type: YouTube
+    url: https://www.youtube.com/nokia
+  - type: Facebook
+    url: https://www.facebook.com/nokia
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
