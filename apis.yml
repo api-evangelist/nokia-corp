@@ -205,7 +205,7 @@ common:
     url: https://networkascode.nokia.io/docs/api-reference
   - type: GettingStarted
     url: https://networkascode.nokia.io/docs/getting-started
-  - type: SignUp
+  - type: Signup
     url: https://networkascode.nokia.io/
   - type: Product
     url: https://www.nokia.com/networks/mobile-networks/
@@ -223,22 +223,22 @@ common:
     url: https://www.nokia.com/networks/submarine-networks/
   - type: Product
     url: https://www.nokia.com/programmable-networks/network-as-code/
-  - type: SDK
+  - type: SDKs
     url: https://github.com/nokia/pysros
     name: pySROS - Python SDK for SR OS
-  - type: Tool
+  - type: Tools
     url: https://github.com/nokia/corteca-cli
     name: Corteca CLI
-  - type: Tool
+  - type: Tools
     url: https://github.com/nokia/ntt
     name: ntt - Modern TTCN-3 tooling
-  - type: Tool
+  - type: Tools
     url: https://github.com/nokia/moler
     name: Moler - Test automation library
-  - type: Tool
+  - type: Tools
     url: https://github.com/nokia/RED
     name: RED - Robot Editor
-  - type: Tool
+  - type: Tools
     url: https://github.com/nokia/vscode-ttcn3
     name: TTCN-3 VS Code extension
   - type: GitHubOrganization

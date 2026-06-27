@@ -2,11 +2,11 @@
   "repo": "nokia-corp",
   "feeds": [
     {
-      "source": "https://www.nokia.com/blog/",
+      "source": "https://www.nokia.com/blog/rss/",
       "feed_url": "https://www.nokia.com/blog/rss/",
       "title": "",
-      "saved": 4,
-      "method": "discovered"
+      "saved": 3,
+      "method": "feed"
     },
     {
       "source": "https://www.nokia.com/about-us/news/",
@@ -16,6 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 4,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 9,
+  "fetched": "2026-06-27T12:03:07Z"
 }
