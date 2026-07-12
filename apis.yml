@@ -191,6 +191,10 @@ apis:
       - url: https://www.nokia.com/programmable-networks/network-as-code/
         type: Documentation
 common:
+  - type: VulnerabilityDisclosure
+    url: security/nokia-corp-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/nokia-corp-domain-security.yml
   - type: Website
     url: https://www.nokia.com
   - type: Portal
