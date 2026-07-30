@@ -20,9 +20,20 @@ description: >-
   repos) including TTCN-3 tooling (ntt), Corteca CLI, Moler test framework, and
   YANG models.
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Provider
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nokia-corp.png
 tags:
   - Telecommunications
   - Telecom
@@ -53,7 +64,7 @@ tags:
   - 7x50
 url: https://raw.githubusercontent.com/api-evangelist/nokia-corp/refs/heads/main/apis.yml
 created: '2026-05-25'
-modified: '2026-05-25'
+modified: '2026-07-25'
 specificationVersion: '0.20'
 apis:
   - aid: nokia-corp:network-as-code
