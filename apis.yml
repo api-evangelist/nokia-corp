@@ -151,6 +151,15 @@ apis:
     tags:
       - SR Linux
       - NOS
+      - Data-Center
+      - gNMI
+      - gNOI
+      - NETCONF
+      - YANG
+      - Network Automation
+    tags_raw:
+      - SR Linux
+      - NOS
       - Data Center
       - gNMI
       - gNOI
