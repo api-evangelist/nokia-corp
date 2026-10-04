@@ -21,16 +21,20 @@ description: >-
   YANG models.
 type: Index
 deliveryModel:
-  model: unknown
+  model: saas
+  license_evidence:
+    not_product:
+    - nokia/7x50_yangmodels
+    - nokia/pysros
   open_source: unknown
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
+  label: Hosted service · you call their endpoint
   confidence: low
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -48,7 +52,6 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nokia-corp.png
 tags:
   - Telecommunications
-  - Telecom
   - 5G
   - 6G
   - Mobile Network
@@ -191,7 +194,7 @@ apis:
     tags:
       - SR Linux
       - NOS
-      - Data-Center
+      - Data Center
       - gNMI
       - gNOI
       - NETCONF
@@ -206,6 +209,7 @@ apis:
       - NETCONF
       - YANG
       - Network Automation
+      - Data-Center
     humanURL: https://www.nokia.com/ip-networks/service-router-linux-NOS/
     properties:
       - url: https://www.nokia.com/ip-networks/service-router-linux-NOS/
