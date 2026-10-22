@@ -213,3 +213,51 @@
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
   status: not-a-workflow
   arazzo: null
+- slug: nokia-corp-wi-fi-alliance-certified-products
+  label: Wi-Fi Alliance certified products
+  partner_name: Wi-Fi Alliance certified products
+  category: Wi-Fi certification
+  type: register
+  channel: standard-directory
+  evidence: https://www.wi-fi.org/product-finder
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Wi-Fi Alliance product finder (wi-fi.org/product-finder; prf.cert.wi-fi.org public JSON / CSV)
+    standard: Wi-Fi CERTIFIED
+    spec_file: null
+    role: wi-fi-certified-product
+    registered_name: Nokia Corporation
+    register_id: WFA140845
+    matched_domain: null
+    matched_by: register-name
+    register_name_note: register-name 'nokia' = nokia-corp; wikidata P856 nokia.com, nokiankaupunki.fi agrees or
+      unheld
+    certified_products:
+    - product: Routers
+      lapsed: false
+      newest_certification: '2026-06-03'
+      generations:
+      - Wi-Fi 7
+      - Wi-Fi 6
+      - Wi-Fi 5 (ac)
+      - Wi-Fi 4 (n)
+    products_sample:
+    - BGW320-505 XGPON ONT
+    - Beacon 4
+    - Fastmile 5G Gateway 12
+    - Fastmile 5G Gateway 6
+    - Fastmile 5G Gateway 7
+    - Fastmile Gateway 3.2
+    - GPON HGU
+    - GPON ONU
+    signal_note: certified_products = one entry per Wi-Fi Alliance product category, never per product, variant
+      or CID; generations are context. Wi-Fi CERTIFIED does not expire and the finder marks nothing withdrawn, so
+      lapsed is false
+    detected_by: sweep-wireless-connectivity-certification.py
+    detected: '2026-10-22'
+    identity_source: register-name
+    identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
+      P856 not contradicting (Kin 2026-10-20 decision 2)
+  status: not-a-workflow
+  arazzo: null
